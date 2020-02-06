@@ -17,16 +17,20 @@ html {
   box-sizing: inherit;
 }
 
-h2 {
-  font-family: 'Rammetto One', cursive;
+body {
+  margin: 0;
 }
 
-h3 {
-  font-family:'Gravitas One', cursive;
+.one h2 {
+  font-family: "Rammetto One", cursive;
 }
 
-h4 {
-  font-family: 'Comfortaa', cursive;
+.two h2 {
+  font-family: "Gravitas One", cursive;
+}
+
+.three h2 {
+  font-family: Comfortaa, cursive;
 }
 
 .one {
@@ -42,5 +46,5 @@ h4 {
 }
 
 p {
-font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
